@@ -10,13 +10,12 @@ const LoginPage = ({navigation}) => {
   const submitHandler = () => {
     fetch('https://test1.kopelindo.co.id/api/login', {
       method: 'POST',
-      body: {
+      headers: {'Content-Type': 'application/json', Accept: 'application/json'},
+      body: JSON.stringify({
         username: username,
         password: password,
-      },
-    })
-      .then(res => res.json())
-      .then(data => navigation.navigate('Home'));
+      }),
+    }).then(res => res.status === 200 && navigation.navigate('Home'));
   };
 
   return (
@@ -39,7 +38,7 @@ const LoginPage = ({navigation}) => {
           placeholder="Password"
         />
 
-        <Button onPress={submitHandler}>
+        <Button onPress={submitHandler} style={styles.buttonStyle}>
           <Text>Login</Text>
         </Button>
       </Card>

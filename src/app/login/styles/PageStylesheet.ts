@@ -22,6 +22,11 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     marginBottom: 5,
   },
+  buttonStyle: {
+    // color: '#ffffff',
+    backgroundColor: '#acf',
+    marginTop: 4,
+  },
 });
 
 export default styles;
