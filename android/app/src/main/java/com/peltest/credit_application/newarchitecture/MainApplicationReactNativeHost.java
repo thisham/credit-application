@@ -1,4 +1,4 @@
-package com.credit_application.newarchitecture;
+package com.peltest.application.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.credit_application.BuildConfig;
-import com.credit_application.newarchitecture.components.MainComponentsRegistry;
-import com.credit_application.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.peltest.application.BuildConfig;
+import com.peltest.application.newarchitecture.components.MainComponentsRegistry;
+import com.peltest.application.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

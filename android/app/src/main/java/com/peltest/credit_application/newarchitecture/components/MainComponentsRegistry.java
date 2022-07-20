@@ -1,4 +1,4 @@
-package com.credit_application.newarchitecture.components;
+package com.peltest.application.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

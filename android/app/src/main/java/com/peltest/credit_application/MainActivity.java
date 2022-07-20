@@ -1,4 +1,4 @@
-package com.credit_application;
+package com.peltest.application;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
